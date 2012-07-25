@@ -9,3 +9,83 @@
 **/
 
 /*This is the additional css written for admin panel controls */
+body {
+background-image: url(../../assets/img/bg-noise.jpg);
+background-position: 0 0;
+background-repeat: repeat;
+}
+
+body {
+	font-size: 14px; 
+	font-family: "Georgia", Helvetica, arial, freesans, clean, sans-serif;
+}
+
+
+.section {
+background-color: white;
+border: 1px solid #CCC;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+-ms-border-radius: 4px;
+-o-border-radius: 4px;
+border-radius: 4px;
+margin-bottom: 18px;
+}
+
+
+.section-header {
+background-color: #F6F6F6;
+background-image: -moz-linear-gradient(top, #FAFAFA, #F2F2F2);
+background-image: -ms-linear-gradient(top, #FAFAFA, #F2F2F2);
+background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#FAFAFA), to(#F2F2F2));
+background-image: -webkit-linear-gradient(top, #FAFAFA, #F2F2F2);
+background-image: -o-linear-gradient(top, #FAFAFA, #F2F2F2);
+background-image: linear-gradient(top, #FAFAFA,#F2F2F2);
+background-repeat: repeat-x; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFAFAFA', endColorstr='#FFF2F2F2', GradientType=0);
+border-top: 1px solid white;
+border-bottom: 1px solid #CCC;
+-moz-border-radius-topleft: 4px;
+-webkit-border-top-left-radius: 4px;
+-ms-border-top-left-radius: 4px;
+-o-border-top-left-radius: 4px;
+border-top-left-radius: 4px;
+-moz-border-radius-topright: 4px;
+-webkit-border-top-right-radius: 4px;
+-ms-border-top-right-radius: 4px;
+-o-border-top-right-radius: 4px;
+border-top-right-radius: 4px;
+height: 46px;
+line-height: 46px;
+padding: 0 15px 0;
+}
+
+.section-body {
+min-height: 18px;
+padding: 9px 15px 0;
+}
+
+.section-header h3 {
+	color: #666;
+	text-shadow: 1px 1px 0 white;
+	margin-top: 10px;
+}
+
+.help-block-small {
+	display: block;
+	margin-bottom: 8px;
+	color:#999999;
+	font-size:10px;
+}
+
+.logo {
+
+	padding : 20px 0;
+	color: #cfcfcf;
+	text-shadow: #fff 1px 1px 2px;
+	text-align:center;
+}
+
+#login {
+	margin: 0 auto;
+	float:none;
+}
