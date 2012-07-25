@@ -9,3 +9,10 @@ Twitter Bootstrap is the powerful framework for creating HTML CSS templates. Usi
 Thanks
 ------
 [Mark Otto](http://github.com/markdotto) and [Jacob Thornton](http://github.com/fat) for [Bootstrap](https://github.com/twitter/bootstrap).
+
+[FortAwesome]
+#Font Awesome 2.0 
+##the iconic font designed for use with Twitter Bootstrap
+
+The full suite of pictographic icons, examples, and documentation can be found at:
+http://fortawesome.github.com/Font-Awesome/
