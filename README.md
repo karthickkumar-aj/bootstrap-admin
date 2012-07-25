@@ -11,3 +11,5 @@ Thanks
 [Mark Otto](http://github.com/markdotto) and [Jacob Thornton](http://github.com/fat) for [Bootstrap](https://github.com/twitter/bootstrap).
 
 [Fort Awesome](http://fortawesome.github.com/Font-Awesome/) for the beautiful icon kit
+
+[James Hollingworth](http://jhollingworth.github.com/bootstrap-wysihtml5/) for WYISYG Editor 
