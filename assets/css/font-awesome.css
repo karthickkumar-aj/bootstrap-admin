@@ -37,6 +37,7 @@
   font-style: normal;
   display: inline-block;
   text-decoration: inherit;
+
 }
 a [class^="icon-"], a [class*=" icon-"] {
   display: inline-block;
@@ -56,6 +57,7 @@ li [class^="icon-"], li [class*=" icon-"] {
   display: inline-block;
   width: 1.25em;
   text-align: center;
+  font-size: 1.3em;
 }
 li .icon-large[class^="icon-"], li .icon-large[class*=" icon-"] {
   /* 1.5 increased font size for icon-large * 1.25 width */
