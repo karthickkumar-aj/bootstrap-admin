@@ -17,9 +17,36 @@ background-repeat: repeat;
 
 body {
 	font-size: 14px; 
-	font-family: "Georgia", Helvetica, arial, freesans, clean, sans-serif;
+	font-family: 'Droid Sans', Helvetica, arial, freesans, clean, sans-serif;
 }
 
+h1 {
+  font-family: 'Patua One', cursive;
+  font-size:30px;
+  color: #a2a2a2;
+}
+
+h2 {
+  font-family: 'Patua One', cursive;
+  font-size:24px;
+  color: #a2a2a2;
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
 
 .section {
 background-color: white;
@@ -88,4 +115,92 @@ padding: 9px 15px 0;
 #login {
 	margin: 0 auto;
 	float:none;
+}
+a.admin-brand {
+  display: block;
+  float: left;
+  padding: 12px 20px 12px;
+  margin-left: -20px;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1;
+  color: #aaa;
+}
+.admin-brand:hover {
+  text-decoration: none;
+}
+
+.navbar-inner-admin {
+  min-height: 40px;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color:#010101;
+ /* background-image:url(../../assets/img/bg-black-texture.png);*/
+  background-repeat:repeat-x;
+}
+.admin-top-bar {
+  min-height: 90px;
+  background-color:#fcfcfc;
+ /* background-image:url(../../assets/img/bg-black-texture.png);*/
+  background-repeat:repeat-x;
+}
+.admin-left-bar {
+  margin: 10px 0px 30px 0px;
+  border-radius:10px;
+  background-color:#333745;
+  /*background-image:url(../../assets/img/bg-admin-left.png);*/
+  background-repeat:repeat-y;
+}
+
+
+.side-nav {
+  list-style: none;
+  margin: 0 0 0 0;
+}
+.side-nav ul {
+}
+.side-nav li a{
+  color:#fcfcfc;
+  display: block;
+  padding: 12px 8px;
+  text-decoration:none;
+}
+.side-nav li a:hover {
+  color: #111;
+  background:#99aabb;
+}
+.side-nav li:first-child a:hover {
+  color: #111;
+  background:#99aabb;
+  border-top-right-radius:10px;
+  border-top-left-radius:10px;
+}
+.side-nav li:last-child a:hover {
+  color: #111;
+  background:#99aabb;
+  border-bottom-left-radius:10px;
+  border-bottom-right-radius:10px;
+}
+.admin-breadcrumb {
+  margin-top:10px;
+  margin-bottom:10px;
+}
+hr {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #eee;
+}
+.footer-widget-bar {
+  border-color:#eee;
+  border-radius:4px;
+  background-color: #cfcfcf;
+  min-height:150px;
+  max-height:100%;
+}
+h2 {
+  margin-top:8px;
+  margin-bottom:10px;
+}
+.credit-links li a{
+    color: #999;
+    text-decoration:none;
 }
