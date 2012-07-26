@@ -23,29 +23,39 @@ body {
 h1 {
   font-family: 'Patua One', cursive;
   font-size:30px;
-  color: #a2a2a2;
+  color: #333745;
 }
 
 h2 {
   font-family: 'Patua One', cursive;
   font-size:24px;
-  color: #a2a2a2;
+  color: #333745;
 }
 
 h3 {
-
+  font-family: 'Patua One', cursive;
+  font-size:18px;
+  color: #333745;
 }
 
 h4 {
-
+  font-family: 'Patua One', cursive;
+  font-size:16px;
+  color: #333745;
+  text-transform:uppercase;
 }
 
 h5 {
-
+   font-family: 'Patua One', cursive;
+  font-size:14px;
+  color: #333745;
 }
 
 h6 {
-
+   font-family: 'Patua One', cursive;
+  font-size:11px;
+  color: #333745;
+  text-transform:uppercase;
 }
 
 .section {
@@ -203,4 +213,19 @@ h2 {
 .credit-links li a{
     color: #999;
     text-decoration:none;
+}
+.admin-nav-box {
+  background-color: #fff;
+  min-height:50px;
+  padding:10px;
+  margin-top:5px;
+  -moz-box-shadow: 0px 1px 2px #616161;
+  -webkit-box-shadow: 0px 1px 2px #616161;
+  box-shadow: 0px 1px 2px #616161;
+  border:solid 1px #ddd;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  font-size:11px;
+  text-align:center;
 }
