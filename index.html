@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Bootstrap Admin - Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-wysihtml5.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.css" rel="stylesheet">
+    <link href="assets/css/font-awesome-ie7.css" rel="stylesheet">
+    <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+    <link href="assets/css/admin.css" rel="stylesheet">
+
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Patua+One' rel='stylesheet' type='text/css'>
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+      <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="assets/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+</head>
+<body>
+<div class="navbar navbar-fixed-top" id="top">
+  <div class="navbar-inner-admin">
+    <div class="container">
+      <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+      </button>
+      <a class="admin-brand" href="./index.html">BOOTSTRAP ADMIN</a>
+      <div class="subnav">
+      <div class="nav-collapse">
+        <ul class="nav pull-right">
+          <li class="dropdown">
+            
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <i class="icon-cog"></i>
+              Settings
+              <b class="caret"></b>
+            </a>
+            
+            <ul class="dropdown-menu">
+              <li><a href="#">Account Settings</a></li>
+              <li><a href="#">Privacy Settings</a></li>
+              <li class="divider"></li>
+              <li><a href="#">Help</a></li>
+            </ul>
+            
+          </li>
+      
+          <li class="dropdown">
+            
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <i class="icon-user"></i> 
+              Karthick Kumar
+              <b class="caret"></b>
+            </a>
+            
+            <ul class="dropdown-menu">
+              <li><a href="#">My Profile</a></li>
+              <li><a href="#">My Groups</a></li>
+              <li class="divider"></li>
+              <li><a href="#">Logout</a></li>
+            </ul>
+            
+          </li>
+        </ul>
+      
+        <form class="navbar-search pull-right">
+          <input type="text" class="search-query" placeholder="Search">
+        </form>
+      </div> <!-- end of subnav -->
+    </div><!--  End of container -->
+  </div><!-- End of navbar inner -->
+</div><!-- End of navbar -->
+<!-- Main Section starts -->
+<div class="row" id="admin-bar">
+  <div class="admin-top-bar">
+    <div class="container">
+        <div class="span4"></div>
+        <div class="span2">Messages</div>
+        <div class="span2">Alerts</div>
+        <div class="span2">New Orders</div>
+    </div><!-- End of container -->
+  </div><!-- End of admin bar -->
+  </div><!--  End of Admin Bar Row -->
+<div class="row" id="main">
+  <div class="container">
+    <div class="span2 admin-left-bar" >
+      <ul class="side-nav">
+        <li class="active">
+          <a href="index.html"><i class="icon-home"></i> Dashboard</a>
+        </li>
+        <li>
+          <a href="#"><i class="icon-user"></i> User Management</a>
+        </li>
+        <li>
+          <a href="#"><i class="icon-calendar"></i> Todo List</a>
+        </li>
+        <li>
+          <a href="#"><i class="icon-shopping-cart"></i> Product Catalog</a>
+        </li>
+        <li>
+          <a href="#"><i class="icon-money"></i> Order Management</a>
+        </li>
+        <li>
+          <a href="#"><i class="icon-folder-open"></i> File Management</a>
+        </li>
+        <li>
+          <a href="#"><i class="icon-folder-open"></i> Ad Management</a>
+        </li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="collapse" data-target="#settings-dropdown" href="#"><i class="icon-cogs"></i> Settings <b class="caret"></b></a>
+          <ul id="settings-dropdown" class="collapse">
+            <li><a href="#">General Settings</a></li>
+            <li><a href="#">Site Settings</a></li>
+            <li><a href="#">Payment Settings</a></li>
+            <li><a href="#">Email Settings</a></li>
+            <li><a href="#">SEO Settings</a></li>     
+          </ul>
+        </li>
+        <li><a href="#"><i class="icon-bullhorn"></i> Messages <span class="badge badge-warning">2</span></a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="collapse" data-target="#help-dropdown" href="#"><i class="icon-info-sign"></i> CMS <b class="caret"></b></a>
+          <ul id="help-dropdown" class="collapse">
+            <li><a href="#">Pages</a></li>
+            <li><a href="#">Menus</a></li>
+            <li><a href="#">Widgets</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="collapse" data-target="#report-dropdown" href="#"><i class="icon-book"></i> Reports <b class="caret"></b></a>
+          <ul id="report-dropdown" class="collapse">
+            <li><a href="#">Revenue</a></li>
+            <li><a href="#">Projects</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="span10">
+      <div class="main-content">
+        <div class="admin-breadcrumb">
+          <ul class="breadcrumb">
+          <li><a href="#">Home</a> <span class="divider">/</span></li>
+          <li class="active">Dashboard</li>
+          </ul>
+        </div>
+        <div class="">
+        <h1>Dashboard</h1>
+        </div>
+      <p>Main Content Area Here</p>
+      </div>
+  </div>
+</div><!--  Main Container Ends Here -->	
+</div> <!-- main ends here -->
+<!-- end container -->
+<!-- start footer widget bar here  -->
+<div class="row">
+      <div class="container">
+        <div class="footer-widget-bar">
+        <div class="span4">
+          <h2>About Bootstrap Admin</h2>
+          <p>Bootstrap Admin is the HTML, CSS, Jquery based admin panel toolkit developed on the bootstrap framework. It is released under GPL license. You can use it any free or commercial projects.</p>
+        </div>
+        <div class="span3">
+          <h2>Credits</h2>
+          <ul class="credit-links">
+            <li><a href="#">Twitter Bootstrap Admin</a></li>
+            <li><a href="#">Twitter Bootstrap</a></li>
+            <li><a href="#">Font Awesome</a></li>
+            <li><a href="#">Bootstrap WYISHTML5</a></li>
+          </ul>
+        </div>
+        <div class="span2">
+          <h2>Community</h2>
+              
+        </div>
+      </div>
+    </div> <!-- End of footer widget bar -->
+</div>
+
+<!-- End footer widget bar here -->
+<!-- Start footer here -->
+<div class="row">
+      <div class="container">
+      <hr>
+      <p><small>&copy; Bootstrap Admin V 1.0 - GPL License - <a href="https://github.com/karthickkumar-aj/bootstrap-admin">Free Download </a></small></p>
+    </div>
+</div>
+<!-- End footer here -->
+<!-- scripts added here -->
+<!-- Le javascript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="./assets/js/jquery.js"></script>
+<script src="./assets/js/application.js"></script>
+<script src="./assets/js/google-code-prettify/prettify.js"></script>
+<script src="./assets/js/bootstrap-transition.js"></script>
+<script src="./assets/js/bootstrap-alert.js"></script>
+<script src="./assets/js/bootstrap-modal.js"></script>
+<script src="./assets/js/bootstrap-dropdown.js"></script>
+<script src="./assets/js/bootstrap-dropdown.js"></script>
+<script src="./assets/js/bootstrap-scrollspy.js"></script>
+<script src="./assets/js/bootstrap-tab.js"></script>
+<script src="./assets/js/bootstrap-tooltip.js"></script>
+<script src="./assets/js/bootstrap-popover.js"></script>
+<script src="./assets/js/bootstrap-button.js"></script>
+<script src="./assets/js/bootstrap-collapse.js"></script>
+<script src="./assets/js/bootstrap-carousel.js"></script>
+<script src="./assets/js/bootstrap-typeahead.js"></script>
+<script src="./assets/js/bootstrap-transition.js"></script>
+<script src="./assets/js/bootstrap-wysihtml5.js"></script>
+<script src="./assets/js/bootstrap.min.js"></script>
+<script src="./assets/js/wysihtml5-0.3.0.js"></script>
+<script src="./assets/js/wysihtml5-0.3.0.min.js"></script>
+<script src="./assets/js/cufon-yui.js"></script>
+<script src="./assets/js/patua_one_400.font.js"></script>
+
+<!-- Custom JS Calls added here -->
+<script type="text/javascript">  
+    Cufon.replace('h1');
+    Cufon.replace('h2');    
+</script>  
+
+<!-- Analytics code added here -->
+
+
+<!-- End of body -->
+</body>
+</html>
