@@ -15,6 +15,10 @@ background-position: 0 0;
 background-repeat: repeat;
 }
 
+a {
+  text-decoration:none;
+}
+
 body {
 	font-size: 14px; 
 	font-family: 'Droid Sans', Helvetica, arial, freesans, clean, sans-serif;
@@ -151,8 +155,11 @@ a.admin-brand {
 .admin-top-bar {
   min-height: 90px;
   background-color:#fcfcfc;
- /* background-image:url(../../assets/img/bg-black-texture.png);*/
+ /* background-image:url(../../assets/img/subtlenet2.png);*/
   background-repeat:repeat-x;
+  -moz-box-shadow:inset 0px 1px 8px #a6a6a6;
+  -webkit-box-shadow:inset 0px 1px 8px #a6a6a6;
+  box-shadow:inset 0px 1px 8px #a6a6a6;
 }
 .admin-left-bar {
   margin: 10px 0px 30px 0px;
@@ -214,18 +221,10 @@ h2 {
     color: #999;
     text-decoration:none;
 }
-.admin-nav-box {
-  background-color: #fff;
-  min-height:50px;
-  padding:10px;
-  margin-top:5px;
-  -moz-box-shadow: 0px 1px 2px #616161;
-  -webkit-box-shadow: 0px 1px 2px #616161;
-  box-shadow: 0px 1px 2px #616161;
-  border:solid 1px #ddd;
-  -moz-border-radius: 6px;
-  -webkit-border-radius: 6px;
-  border-radius: 6px;
-  font-size:11px;
-  text-align:center;
+.admin-buttons {
+  min-height:70px;
+}
+.admin-icon-user {
+  min-height:80px;
+  background-image: url(../../assets/img/bootstrap_admin_icons.png) 50px 50px no-repeat,;
 }
